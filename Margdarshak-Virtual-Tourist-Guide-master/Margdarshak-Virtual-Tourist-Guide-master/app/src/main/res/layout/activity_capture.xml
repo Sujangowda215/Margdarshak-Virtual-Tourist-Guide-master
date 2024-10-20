@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".features.kym.CaptureActivity">
+
+
+    <ImageView
+        android:id="@+id/lr_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:src="@android:color/holo_red_dark"
+        android:visibility="gone" />
+
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/let_me_look_through_the_pages_of_history"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:visibility="gone" />
+</LinearLayout>
